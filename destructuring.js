@@ -107,8 +107,15 @@ function largeNumbers ({first, second, third}){
   Find the longest array and return that array.
 */
 
-// function numberGroups(a, b, c){
-//   let longest = [a, b, c]
-//   for (longest)
-
-// }
+function numberGroups(a, b, c){
+  let longest = [a, b, c]
+  let longestArr = []
+  
+  for (i = 0; i < longest.length; i++){
+    longestArr = math.Max(longest[i])
+    
+    // for (j = 0; j < longest[i]; j++){
+      
+    }
+    return longestArr
+  }
